@@ -1,0 +1,8 @@
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__picture {
+    width: 200px;
+  }
+}

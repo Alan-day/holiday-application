@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "picture": "https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg",
+    "description": "Wow, nice view"
+  },
+  {
+    "id": 2,
+    "picture": "https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg",
+    "description": "Another nice view"
+  },
+  {
+    "id": 3,
+    "picture": "https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg",
+    "description": "Nice view"
+  }
+]

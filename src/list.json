@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "date_started": "17/08/2022",
+    "date_ended": "21/08/2022",
+    "description": "Spain"
+  },
+  {
+    "id": 2,
+    "date_started": "12/06/2022",
+    "date_ended": "18/06/2022",
+    "description": "India"
+  },
+  {
+    "id": 3,
+    "date_started": "19/09/2022",
+    "date_ended": "20/09/2022",
+    "description": "Germany"
+  }
+]
