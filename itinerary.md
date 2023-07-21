@@ -12,7 +12,7 @@ This week we’re going to be building an Holiday Itinerary application, that al
     - **Dashboard (/holidays)**: list of holidays, categorised into current and past
     - **Holiday (/holiday/holidayId)**: from the dashboard if you click on a holiday you are taken through the the specific holiday... which contains a timeline (slideshow or list) of the holidays events (photos and text etc)
     - **Add Holiday (/holiday/add)**: A page for authorised users to add a new holiday
-    - **Edit Holiday (/holiday/edit/holidayId)**: A page for authorised users to edit an lready created holiday
+    - **Edit Holiday (/holiday/edit/holidayId)**: A page for authorised users to edit an already created holiday
   - Authentiation: Use firebase auth to ensure only once the correct credentials have been provided can someone (you) add photos etc to the itinerary.
   - Be able to see past holidays, as well as current holidays, based on the current date
   - e.g. if the date today is 22nd April and you are on holiday in Bali from 11th - 25th.... that would be a current holiday, compared to if the date today was 28th, the same holiday would be a previous holiday.

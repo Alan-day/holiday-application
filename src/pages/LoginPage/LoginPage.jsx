@@ -35,7 +35,7 @@ const LoginPage = ({ setUser }) => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         setUser(userCredential.user);
-        navigate("/homepage");
+        navigate("/holidays");
       })
       .catch((error) => {
         console.log(error);
