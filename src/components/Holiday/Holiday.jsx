@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom"; // For accessing URL parameters
-import data from "./../../data.json"; // Import the JSON data
+import { useParams } from "react-router-dom"; // needed for urls
+import data from "./../../data.json";
 
 const Holiday = () => {
-  const { id } = useParams(); // Get the "id" parameter from the URL
-  const holidayData = data.find((holiday) => holiday.id === parseInt(id, 10)); // Find the selected holiday based on ID
+  const { id } = useParams();
+  const holidayData = data.find((holiday) => holiday.id === parseInt(id, 10));
 
-  const [elements, setElements] = useState([]); // State for storing elements related to the holiday
+  const [elements, setElements] = useState([]);
 
-  // Function to add new elements to the holiday
   const handleAddElement = (newElement) => {
     setElements([...elements, newElement]);
   };
@@ -18,7 +17,7 @@ const Holiday = () => {
       <h2>Holiday Details</h2>
       {holidayData ? (
         <>
-          <img src = {holidayData.picture} />
+          <img src={holidayData.picture} />
 
           <p>Description: {holidayData.description}</p>
         </>
