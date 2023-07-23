@@ -8,13 +8,17 @@ const HolidayList = () => {
   const [holidays, setHolidays] = useState(list);
 
   const holidayList = holidays.map((element) => (
+   
     <Link
       key={element.id}
       to={`/holidays/${element.id}`}
       style={{ textDecoration: "none" }}
+      
     >
       <HolidayListElement
         start={element.date_started}
+
+      
         finish={element.date_ended}
         description={element.description}
       />
@@ -31,6 +35,7 @@ const HolidayList = () => {
     description: "",
     date_started: "",
     date_ended: "",
+  
   };
 
   return (

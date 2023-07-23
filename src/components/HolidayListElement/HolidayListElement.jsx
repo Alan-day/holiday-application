@@ -8,6 +8,10 @@ const HolidayListElement = ({ start, finish, description, moveToHoliday }) => {
         <p className="element-container date"> started: {start}</p>
         <p className="element-container__description">finished: {finish}</p>
         {/* <button className="element-container__button" onClick={moveToHoliday}>View</button> */}
+
+          
+
+
       </div>
     </>
   );
