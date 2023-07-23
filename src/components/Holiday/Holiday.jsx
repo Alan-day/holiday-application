@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom"; // needed for urls
 import data from "./../../data.json";
-
+import "./Holiday.scss"
 const Holiday = () => {
   const { id } = useParams();
   const holidayData = data.find((holiday) => holiday.id === parseInt(id, 10));
@@ -17,7 +17,7 @@ const Holiday = () => {
       <h2>Holiday Details</h2>
       {holidayData ? (
         <>
-          <img src={holidayData.picture} />
+          <img src={holidayData.picture} className="picture"/>
 
           <p>Description: {holidayData.description}</p>
         </>
