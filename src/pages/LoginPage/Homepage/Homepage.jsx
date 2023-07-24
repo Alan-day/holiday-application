@@ -1,10 +1,10 @@
 import React from "react";
 import HolidayList from "../../../components/HolidayList/HolidayList";
 
-const Homepage = () => {
+const Homepage = ({list}) => {
   return (
     <div>
-      <HolidayList />
+      <HolidayList list={list} />
     </div>
   );
 };

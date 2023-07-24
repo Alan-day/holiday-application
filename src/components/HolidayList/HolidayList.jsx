@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Assuming you have React Router properly set up
-import list from "./../../list.json";
+
 import HolidayListElement from "../HolidayListElement/HolidayListElement"; // Assuming it's a default export
 import CreateForm from "../CreateForm/CreateForm"; // Assuming it's a default export
 
-const HolidayList = () => {
+const HolidayList = ({list}) => {
   const [holidays, setHolidays] = useState(list);
 
   const holidayList = holidays.map((element) => (
